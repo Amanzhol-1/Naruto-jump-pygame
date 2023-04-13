@@ -8,7 +8,7 @@ from random import randint
 import inputbox
 import os
 from config import *
-os.chdir('C:/Users/acer/Desktop/git lessin/draft/Doodle-Jump-master')
+os.chdir('C:/Users/User/Desktop/novii/Doodle-Jump-master')
 # Base class for location
 class Location(object):
     parent = None
@@ -97,7 +97,7 @@ class GameLocation(Location):
             if self.monster == None:
                 case = randint(-1000,5)
                 if case > 0:
-                    self.monster = Monster(randint(0, screen_width), randint(-50, 50))
+                    self.monster = Monster(randint(0, screen_width), randint(-19, 19)) #килаура 
                     self.allsprites.add(self.monster)
                     self.monster.move()
             else:

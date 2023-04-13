@@ -11,8 +11,11 @@ from locations import *
 from sprites import *
 
 from config import screen_width, screen_height, fps
-os.chdir('C:/Users/acer/Desktop/git lessin/draft/Doodle-Jump-master')
+os.chdir('C:/Users/User/Desktop/novii/Doodle-Jump-master')
 
+pygame.mixer.init()
+#pygame.mixer.music.load('C:/Users/User/Desktop/novii/Doodle-Jump-master/img/M.mp3')
+#pygame.mixer.music.play(-1) 
 # Main class for game window
 class Game():
 
