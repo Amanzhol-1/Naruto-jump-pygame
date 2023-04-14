@@ -8,7 +8,7 @@ from random import randint
 import inputbox
 import os
 from config import *
-os.chdir('C:/Users/User/Desktop/novii/Doodle-Jump-master')
+os.chdir('C:/Users/User/Desktop/novii/Naruto jump')
 # Base class for location
 class Location(object):
     parent = None

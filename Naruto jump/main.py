@@ -11,7 +11,7 @@ from locations import *
 from sprites import *
 
 from config import screen_width, screen_height, fps
-os.chdir('C:/Users/User/Desktop/novii/Doodle-Jump-master')
+os.chdir('C:/Users/User/Desktop/novii/Naruto jump')
 
 pygame.mixer.init()
 #pygame.mixer.music.load('C:/Users/User/Desktop/novii/Doodle-Jump-master/img/M.mp3')
