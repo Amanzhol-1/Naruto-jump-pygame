@@ -8,7 +8,7 @@ from random import randint
 import inputbox
 import os
 from config import *
-os.chdir('C:/Users/User/Desktop/novii/Naruto jump')
+os.chdir('C:/Users/User/Desktop/novii/1/Naruto jump')
 # Base class for location
 class Location(object):
     parent = None
@@ -20,23 +20,6 @@ class Location(object):
         pass
     def draw(self):
         pass
-
-
-# first menu location
-#class StartLocation(Location):
- #   
-  #  def __init__(self, parent):
-   #     Location.__init__(self, parent)
-    #    pygame.mouse.set_visible(1)
-     #   pygame.key.set_repeat(0)
-      #  self.startbtn = Button(240, 200, "Start")
-       # self.exitbtn = Button(240, 270, "Exit")
-        #self.controls = pygame.sprite.Group()
-        #self.surfaces = []
-        #
-
-
-
 
 # gameplay location
 class GameLocation(Location):

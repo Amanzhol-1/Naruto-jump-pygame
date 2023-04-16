@@ -11,11 +11,11 @@ from locations import *
 from sprites import *
 
 from config import screen_width, screen_height, fps
-os.chdir('C:/Users/User/Desktop/novii/Naruto jump')
+os.chdir('C:/Users/User/Desktop/novii/1/Naruto jump')
 
 pygame.mixer.init()
-#pygame.mixer.music.load('C:/Users/User/Desktop/novii/Doodle-Jump-master/img/M.mp3')
-#pygame.mixer.music.play(-1) 
+pygame.mixer.music.load('C:/Users/User/Desktop/novii/1/Naruto jump/img/M.mp3')
+pygame.mixer.music.play(-1) 
 # Main class for game window
 class Game():
 
@@ -26,12 +26,6 @@ class Game():
     def event(self, event):
         if event.type == QUIT:
             sys.exit()
-     #   elif event.type == KEYUP:
-      #      if event.key == K_ESCAPE:
-       #         if isinstance(self.location, GameLocation):
-        #            self.location = StartLocation(self)
-         #       elif isinstance(self.location, StartLocation):
-          #          sys.exit()
                 
 
 # main function

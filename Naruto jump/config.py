@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-
-screen_width = 1280
-screen_height = 960
+screen_width = 480
+screen_height = 640
 
 platform_width = 100
 fps = 45
